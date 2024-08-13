@@ -1,8 +1,12 @@
 function skillMember() {
-  var member = {
-    name: "John",
-    age: 20,
-    skills: ["JS", "React", "Node"],
-  };
-  return member;
+    this.name = "skill member";
+    this.age = 25;
+    this.job = "developer";
+    this.skills = ["html", "css", "js"];
+    this.show = function () {
+        console.log("Name: " + this.name);
+        console.log("Age: " + this.age);
+        console.log("Job: " + this.job);
+        console.log("Skills: " + this.skills);
+    };
 }
