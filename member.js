@@ -1,4 +1,4 @@
-function skillMember() {
+function skillsMember() {
     this.name = "skill member";
     this.age = 25;
     this.job = "developer";
